@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Module11]">
+  <test thread-count="5" name="Module11(failed)">
+    <classes>
+      <class name="Module11.Module11AssignmentUploadPic">
+        <methods>
+          <include name="ClickProfile"/>
+          <include name="CloseBrowser"/>
+          <include name="OpenBrowser"/>
+        </methods>
+      </class> <!-- Module11.Module11AssignmentUploadPic -->
+    </classes>
+  </test> <!-- Module11(failed) -->
+</suite> <!-- Failed suite [Module11] -->
